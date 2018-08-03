@@ -49,7 +49,7 @@ echo "#############################################################"
 
 
 
-cd ./opt/letsencrypt
+cd /opt/letsencrypt
 pwd
 ls
 sleep20
