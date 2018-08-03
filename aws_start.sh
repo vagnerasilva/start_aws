@@ -44,9 +44,13 @@ echo "#############################################################"
 echo "#         https://my.freenom.com/cart.php?a=complete        #"
 echo "#         winechain.tk setting DNS IP in 20 seconds         #"
 echo "#############################################################"
+
+
+
+
+
+cd ./opt/letsencrypt
+pwd
+ls
 sleep20
-
-./letsencrypt-auto --apache -d winechain.tk
-
-
-# sudo ./iniciar.sh
+./certbot-auto --apache -d winechain.tk -d www.winechain.tk
