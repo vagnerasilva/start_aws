@@ -18,6 +18,8 @@ echo "#############################################################"
 echo "#         Install node 9                                    #"
 echo "#############################################################"
 sudo apt-get install -y nodejs
+sudo apt install node-gyp
+
 echo "#############################################################"
 echo "#         Install docker-compose                            #"
 echo "#############################################################"
@@ -54,4 +56,4 @@ pwd
 ls
 sleep5
 pwd 
-./certbot-auto --apache -d winechain.tk -d www.winechain.tk
+#./certbot-auto --apache -d winechain.tk -d www.winechain.tk
