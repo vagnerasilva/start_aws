@@ -53,7 +53,7 @@ echo "#############################################################"
 
 cd /opt/letsencrypt
 pwd
-ls
+
 sleep5
 pwd 
 #./certbot-auto --apache -d winechain.tk -d www.winechain.tk
