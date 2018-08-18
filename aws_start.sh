@@ -56,4 +56,6 @@ pwd
 
 sleep5
 pwd 
+cd ./home
+git clone https://github.com/vagnerasilva/startserver.git
 #./certbot-auto --apache -d winechain.tk -d www.winechain.tk
