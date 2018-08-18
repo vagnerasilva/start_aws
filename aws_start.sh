@@ -56,6 +56,10 @@ pwd
 
 sleep5
 pwd 
-cd ./home
+cd ~/start_aws
+
 git clone https://github.com/vagnerasilva/startserver.git
+cd startserver
+npm install 
+node serve.js
 #./certbot-auto --apache -d winechain.tk -d www.winechain.tk
