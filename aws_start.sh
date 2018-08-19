@@ -61,5 +61,6 @@ cd ~/start_aws
 git clone https://github.com/vagnerasilva/startserver.git
 cd startserver
 npm install 
-node serve.js
+sudo systemctl restart apache2.service
+# node serve.js
 #./certbot-auto --apache -d winechain.tk -d www.winechain.tk
